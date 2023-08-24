@@ -7,16 +7,16 @@ export default  function Footer() {
         <div className="w-screen flex flex-col lg:flex lg:flex-row">
           <div className=" w-full lg:w-1/3 p-5">
             <h2 className="text-white/95"> Descripción: </h2>
-            <p className=" text-white/60">"Nutrición Deportiva, todo para el deportista. proteínas, creatina, aminoácidos, esteroides, whey Protein, quemadores de Grasas, Mesoestetic, Cooper Pharma, l carnitine, winstrol. Pérdida de peso,."</p>
+            <p className=" text-white/60">"Nutrición Deportiva, todo para el deportista. Proteínas, creatina, aminoácidos, whey Protein, quemadores de grasas, Mesoestetic, Cooper Pharma, l carnitine, winstrol. Pérdida de peso,."</p>
           </div>
           <div className=" w-full lg:w-1/3 p-5">
             <h2 className="text-white/95"> Opciones de servicio:  </h2>
-            <p className=" text-white/60">Compras en tienda · Retiros en la puerta · Entrega a domicilio</p>
+            <p className=" text-white/60">Compras y retiros en tienda · Delivery · Entrega a domicilio · Envios a todo el pais · Asesoria personalizada.</p>
           </div>
           <div className=" w-full lg:w-1/3 p-5">
             <h2 className="text-white/95"> Dirección:  </h2>
-            <p className=" text-white/60 mb-2">(corta) Edificio Mar, Avenida Francisco de Miranda, Caracas 1060, Miranda</p>
-            <p className=" text-white/60">(larga) AV. Fco Miranda Edif Mar, Mz-1 ofic-1, al lado del Ministerio de Vivienda MINHVI antiguo INAVI y Farmacia GALEM. tocar el único Intercomunicador con cámara. Pto de ref. Farmatodo de Chacao, Ccs. </p>
+            <p className=" text-white/60 mb-2">Edificio Mar, Avenida Francisco de Miranda, Caracas 1060, Miranda</p>
+            <p className=" text-white/60">AV. Fco Miranda Edif Mar, Mz-1 ofic-1, al lado del Ministerio de Vivienda MINHVI antiguo INAVI y Farmacia GALEM. tocar el único Intercomunicador con cámara. Pto de ref. Farmatodo de Chacao, Ccs. </p>
           </div>
         </div>
         <div className=" w-screen p-5">

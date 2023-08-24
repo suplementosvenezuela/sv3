@@ -24,6 +24,14 @@ export default function Nav(){
           <div className={`nav_items absolute left-0 top-20 pt-4 bg-black w-screen h-screen lg:pt-0 lg:top-0 lg:relative lg:h-auto lg:block lg:w-auto z-50 ${isOpen && "open"}`}>
             <ul className=" font-medium flex flex-col p-4 mt-4  rounded-lg bg-black lg:p-0 lg:flex-row lg:space-x-8 md:mt-0 lg:border-0 ">
               <li className="mt-10 lg:mt-5">
+                <div className="w-full block lg:hidden sm:w-1/2 -mt-2">
+                  <input className="rounded-lg w-4/5 h-7 text-sm border-collapse bg-gradient-to-r from-gray-800 to-zinc-400 text-white mr-2" type="text" name="buscar" maxlength="50" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]{3,23}" title="Busqueda de Producto" /> 
+                  <button className="  relative top-2">
+                    <span className="w-auto h-auto"> <Image className=" w-6 h-6 rounded-full  invert  " src="/assets/images/buscar.ico" width={1000} height={1000} /> </span>
+                  </button> 
+                </div>
+              </li>
+              <li className="mt-10 lg:mt-5">
                 <Link className="text-sm text-white hover:text-amber-400" href="/"> MARCAS </Link>
               </li>
               <li className="mt-10 lg:mt-6">
@@ -50,18 +58,18 @@ export default function Nav(){
                     </li>
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg" href="/productos" > PRECURSORES DE TESTOSTERONA </Link>
-                      <Image className=" img w-40 " src="/assets/images/SV_PRODUCTOS_precursores_de_testosterona.png" width={1000} height={1000} />
+                      <Image className=" img w-40 h-36 my-auto " src="/assets/images/SV_PRODUCTOS_precursores_de_testosterona.png" width={1000} height={1000} />
                     </li>
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg" href="/productos" > PROTEÍNAS </Link>
-                      <Image className=" img w-40 " src="/assets/images/SV_PRODUCTOS_proteinas.png" width={1000} height={1000} />
+                      <Image className=" img w-40 " src="/assets/images/SV_PRODUCTOS_proteinas2.png" width={1000} height={1000} />
                     </li>
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg" href="/productos" > QUEMADORES DE GRASA </Link>
-                      <Image className=" img w-40 " src="/assets/images/SV_PRODUCTOS_quemadores_de_grasa.png" width={1000} height={1000} />
+                      <Image className=" img w-40 h-36 my-auto" src="/assets/images/SV_PRODUCTOS_quemadores_de_grasa.png" width={1000} height={1000} />
                     </li>
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
-                      <Link className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg" href="/productos" > SARS </Link>
+                      <Link className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg" href="/productos" > SARMS </Link>
                       <Image className=" img w-40 " src="/assets/images/SV_PRODUCTOS_sars.png" width={1000} height={1000} />
                     </li>
                   </ul>
@@ -71,7 +79,7 @@ export default function Nav(){
                 <Link className="text-sm text-white hover:text-amber-400 " href="/"> OBJETIVOS </Link>
               </li>
               <li className="mt-10 lg:mt-5">
-                <Link className=" text-sm text-white hover:text-amber-400 " href="/"> BLOG </Link>
+                <Link className=" text-sm text-white hover:text-amber-400 " href=""> BLOG </Link>
               </li>
               <li className=" flex mt-10 lg:mt-5">
                 <Link className=" mx-1 m-0 lg:w-auto " href="https://www.facebook.com/suplementovenezuela" target="_blank"> <span className="w-auto h-auto"> <Image className=" w-6 h-6 rounded-full  hover:w-7 hover:h-7 invert" src="/assets/images/facebook_black.ico" width={1000} height={1000} /> </span> </Link>
@@ -81,8 +89,13 @@ export default function Nav(){
 
             </ul>
           </div>
-          <div className="flex mt-4">
-            <input className="rounded-lg w-4/5 h-7 text-sm border-collapse bg-gradient-to-r from-gray-800 to-zinc-400 text-white mr-2" type="text" name="buscar" maxlength="50" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]{3,23}" title="Busqueda de Producto" /> 
+          <div className=" lg:w-96 flex mt-4">
+            <div className=" hidden lg:block w-72 -mt-2">
+              <input className="rounded-lg w-4/5 h-7 text-sm border-collapse bg-gradient-to-r from-gray-800 to-zinc-400 text-white mr-2" type="text" name="buscar" maxlength="50" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]{3,23}" title="Busqueda de Producto" /> 
+              <button className="  relative top-2">
+                <span className="w-auto h-auto"> <Image className=" w-6 h-6 rounded-full  invert  " src="/assets/images/buscar.ico" width={1000} height={1000} /> </span>
+              </button> 
+            </div>
             <Link className=" px-1 m-0  w-8 h-8 rounded-full hover:bg-slate-300 " href="/login"> <span className="w-auto h-auto"> <Image className=" w-6 h-6 invert" src="/assets/images/user-icon.ico" width={1000} height={1000} /> </span> </Link>
             <Link className=" px-1 m-0  w-16 relative -top-2" href="/"> <span className="w-auto h-auto"> <Image className=" w-10 h-10 invert" src="/assets/images/shop-icon.ico" width={1000} height={1000} /> </span> </Link>
           </div>
