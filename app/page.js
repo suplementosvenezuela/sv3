@@ -1,7 +1,7 @@
 import Presentation from "./components/presentation"
 import Products from "./components/products"
 import Public from "./components/public"
-import Supplements from "./components/supplements"
+import Supplements from "./components/marcas"
 import Categories from "./components/categories"
 import Image from "next/image"
 import Link from "next/link"
@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <Presentation />
       <Objetivos />
-      <Supplements />
+      <Marcas />
       <Public />
       <Products />
       <Categories />

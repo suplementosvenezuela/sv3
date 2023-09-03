@@ -11,7 +11,7 @@ export default function Supplements() {
             <Link className="" href="/"> <span className="w-auto h-auto"> <Image className="w-full " src="/assets/images/hi_tech_pharma.webp" width={1000} height={1000}/> </span></Link>
           </div>
           <div className="w-full sm:w-1/4 my-20">
-            <Link className="" href="/"> <span className="w-auto h-auto"> <Image className="w-full" src="/assets/images/Nutrex.webp" width={1000} height={1000}/> </span></Link>
+            <Link className="" href="/marcas/nutrex"> <span className="w-auto h-auto"> <Image className="w-full" src="/assets/images/Nutrex.webp" width={1000} height={1000}/> </span></Link>
           </div>
           <div className="w-full sm:w-1/4 my-20">
             <Link className="" href="/"> <span className="w-auto h-auto"> <Image className="w-full" src="/assets/images/nutricost.webp" width={1000} height={1000}/> </span></Link>
