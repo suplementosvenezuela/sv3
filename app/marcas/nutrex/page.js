@@ -604,11 +604,11 @@ export default function Produtos() {
         </div>
         <div className="px-5 grid gap-1 grid-cols-1 lg:gap-4 lg:grid-cols-2 w-screen h-auto">
           {cards.map((card, index) => {
+            const whatsappLink = `https://api.whatsapp.com/send?phone=584142743886&text=${encodeURIComponent(`¡Hola! Saludos, 👋
+            Les escribo a través de su página web SuplementosVenezuela.com desde la categoría marca "Nutrex" y estoy interesado en obtener más información y comprar "${card.producto}" por el precio de: ${card.precio} y también en recibir asesoría personalizada para el uso del mismo. Gracias de antemano. Mi nombre es: `)}`;
             return (
-              <div
-                key={index}
-                className="flex flex-col w-full py-5 px-1 border-black mx-auto border-4 2 hover:bg-gradient-to-b from-black to-white/50 sm:w-4/5"
-              >
+              <div key={index} className="flex flex-col w-full py-5 px-1 border-black mx-auto border-4 2 hover:bg-gradient-to-b from-black to-white/50 sm:w-4/5">
+
                 <div className="flex w-full flex-col sm:flex-row">
                   <div className="flex flex-row w-full relative top-72 sm:top-0 pt-0 sm:pl-20 sm:flex-col sm:w-1/2 ">
                     <div className="w-1/3 h-24 left-0 pt-7 p-1 mb-2 text-center bg-amber-500 sm:pt-4 sm:w-20 sm:h-20  sm:-left-1/2">
@@ -668,12 +668,12 @@ export default function Produtos() {
                 </div>
 
                 <div className="w-full">
-                  <button
+                  <a
+                    href={whatsappLink}
                     className="mt-4 w-full h-10 border-collapse text-white border-2 border-white hover:bg-amber-500 rounded-lg text-lg font-semibold sm:w-1/2 sm:mx-36 lg:mx-44"
-                    type="submit"
                   >
                     Comprar
-                  </button>
+                  </a>
                 </div>
                 <div className="w-full flex justify-center items-center mt-4">
                   <div className="bg-gray-900 text-white py-2 px-4 rounded-md text-lg">
