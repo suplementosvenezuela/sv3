@@ -7,7 +7,7 @@ import Products from "@/app/productos/productos";
 export default function Tarjet() {
   // Filtrar los productos por nombre que contengan las palabras clave
   const filteredProducts = Products.filter((Product) =>
-    /ganadores/i.test(Product.name)
+    /muscular/i.test(Product.text1)
   );
 
   console.log(filteredProducts);
