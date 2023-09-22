@@ -12,7 +12,7 @@ export default function Nav() {
     setIsSubOpen(!isSubOpen);
   };
   const handleNavLinkClick = () => {
-    setIsSubOpen(false);
+    setIsOpen(false);
   };
 
   return (
