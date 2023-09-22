@@ -272,6 +272,7 @@ export default function Nav() {
                     />{" "}
                   </span>{" "}
                 </Link>
+                <Link className=" m-0 lg:w-auto" href="https://twitter.com/suplementosVzla" target="_blank"> <span className="w-auto h-auto "> <Image className=" w-10 h-8 rounded-full  hover:w-11 hover:h-9 invert relative -top-1" src="/assets/images/twitter_x.ico" width={1000} height={1000} /> </span> </Link>
                 <Link
                   className=" mx-1 m-0 lg:w-auto "
                   href="https://www.youtube.com/@suplementosvenezuela5294"

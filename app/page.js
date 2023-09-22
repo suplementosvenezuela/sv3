@@ -1,12 +1,13 @@
 import Presentation from "./components/presentation"
 import Products from "./components/products"
 import Public from "./components/public"
-import Marcas from "./components/marcas"
+import Supplements from "./components/supplements"
 import Categories from "./components/categories"
 import Image from "next/image"
 import Link from "next/link"
 import Objetivos from "./components/objetivos"
 import Location from "./components/location"
+import AppStore from "./components/appStore"
 
 export default function Home() {
   return (
@@ -16,10 +17,11 @@ export default function Home() {
       </div>
       <Presentation />
       <Objetivos />
-      <Marcas />
-      <Public />
-      <Products />
+      <Supplements />
+      {/* <Public />
+      <Products /> */}
       <Categories />
+      <AppStore />
       <Location />
     </section>
   )

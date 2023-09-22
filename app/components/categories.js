@@ -10,42 +10,42 @@ import Image from "next/image";
 const cards = [
   {
     image:"/assets/images/SV_PRODUCTOS_aminoacidos_2.png",
-    link:"https://api.whatsapp.com/send?phone=584140124810&text=%C2%A1Hola!%20Saludos%2C%0A%0AMe%20encuentro%20explorando%20la%20incre%C3%ADble%20variedad%20de%20suplementos%20que%20ofrecen%20en%20la%20categor%C3%ADa%20de%20*Aminoacidos*%20en%20la%20p%C3%A1gina%20web%20de%20SuplementosVenezuela.com.%20Estoy%20muy%20interesado%20en%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20de%20esta%20categor%C3%ADa%2C%20Gracias%20de%20antemano.%20",
+    link:"/suplemento/categoria/aminoacidos",
     text:"AMINOACIDOS"
   },
   {
     image:"/assets/images/SV_PRODUCTOS_cooper_2.png",
-    link:"https://api.whatsapp.com/send?phone=584140124810&text=%C2%A1Hola!%20Saludos%2C%0A%0AMe%20encuentro%20explorando%20la%20incre%C3%ADble%20variedad%20de%20suplementos%20que%20ofrecen%20en%20la%20categor%C3%ADa%20de%20*COOPER%20PHARMA*%20en%20la%20p%C3%A1gina%20web%20de%20SuplementosVenezuela.com.%20Estoy%20muy%20interesado%20en%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20de%20esta%20categor%C3%ADa%2C%20Gracias%20de%20antemano.%20",
+    link:"/suplemento/categoria/cooperpharma",
     text:"COOPER PHARMA"
   },
   {
     image:"/assets/images/SV_PRODUCTOS_creadores_de_peso.png",
-    link:"https://api.whatsapp.com/send?phone=584140124810&text=%C2%A1Hola!%20Saludos%2C%0A%0AMe%20encuentro%20explorando%20la%20incre%C3%ADble%20variedad%20de%20suplementos%20que%20ofrecen%20en%20la%20categor%C3%ADa%20de%20*GANADORES%20DE%20PESO*%20en%20la%20p%C3%A1gina%20web%20de%20SuplementosVenezuela.com.%20Estoy%20muy%20interesado%20en%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20de%20esta%20categor%C3%ADa%2C%20Gracias%20de%20antemano.%20",
+    link:"/suplemento/categoria/ganadores_de_peso",
     text:"GANADORES DE PESO"
   },
   {
     image:"/assets/images/SV_PRODUCTOS_creatinas.png",
-    link:"https://api.whatsapp.com/send?phone=584140124810&text=%C2%A1Hola!%20Saludos%2C%0A%0AMe%20encuentro%20explorando%20la%20incre%C3%ADble%20variedad%20de%20suplementos%20que%20ofrecen%20en%20la%20categor%C3%ADa%20de%20*CREATINAS*%20en%20la%20p%C3%A1gina%20web%20de%20SuplementosVenezuela.com.%20Estoy%20muy%20interesado%20en%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20de%20esta%20categor%C3%ADa%2C%20Gracias%20de%20antemano.%20",
+    link:"/suplemento/categoria/creatinas",
     text:"CREATINAS"
   },
   {
     image:"/assets/images/SV_PRODUCTOS_precursores_de_testosterona.png",
-    link:"https://api.whatsapp.com/send?phone=584140124810&text=%C2%A1Hola!%20Saludos%2C%0A%0AMe%20encuentro%20explorando%20la%20incre%C3%ADble%20variedad%20de%20suplementos%20que%20ofrecen%20en%20la%20categor%C3%ADa%20de%20*PRECURSORES%20DE%20TESTOSTERONA*%20en%20la%20p%C3%A1gina%20web%20de%20SuplementosVenezuela.com.%20Estoy%20muy%20interesado%20en%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20de%20esta%20categor%C3%ADa%2C%20Gracias%20de%20antemano.%20",
+    link:"/suplemento/categoria/precursores_de_testosterona",
     text:"PRECURSORES DE TESTOSTERONA"
   },
   {
     image:"/assets/images/SV_PRODUCTOS_proteinas2.png",
-    link:"https://api.whatsapp.com/send?phone=584140124810&text=%C2%A1Hola!%20Saludos%2C%0A%0AMe%20encuentro%20explorando%20la%20incre%C3%ADble%20variedad%20de%20suplementos%20que%20ofrecen%20en%20la%20categor%C3%ADa%20de%20*PROTE%C3%8DNAS*%20en%20la%20p%C3%A1gina%20web%20de%20SuplementosVenezuela.com.%20Estoy%20muy%20interesado%20en%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20de%20esta%20categor%C3%ADa%2C%20Gracias%20de%20antemano.%20",
+    link:"/suplemento/categoria/proteinas",
     text:"PROTEÍNAS"
   },
   {
     image:"/assets/images/SV_PRODUCTOS_quemadores_de_grasa.png",
-    link:"https://api.whatsapp.com/send?phone=584140124810&text=%C2%A1Hola!%20Saludos%2C%0A%0AMe%20encuentro%20explorando%20la%20incre%C3%ADble%20variedad%20de%20suplementos%20que%20ofrecen%20en%20la%20categor%C3%ADa%20de%20*QUEMADORES%20DE%20GRASA*%20en%20la%20p%C3%A1gina%20web%20de%20SuplementosVenezuela.com.%20Estoy%20muy%20interesado%20en%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20de%20esta%20categor%C3%ADa%2C%20Gracias%20de%20antemano.%20",
+    link:"/suplemento/categoria/quemadores_de_grasa",
     text:"QUEMADORES DE GRASA"
   },
   {
     image:"/assets/images/SV_PRODUCTOS_sars.png",
-    link:"https://api.whatsapp.com/send?phone=584140124810&text=%C2%A1Hola!%20Saludos%2C%0A%0AMe%20encuentro%20explorando%20la%20incre%C3%ADble%20variedad%20de%20suplementos%20que%20ofrecen%20en%20la%20categor%C3%ADa%20de%20*SARMS*%20en%20la%20p%C3%A1gina%20web%20de%20SuplementosVenezuela.com.%20Estoy%20muy%20interesado%20en%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20de%20esta%20categor%C3%ADa%2C%20Gracias%20de%20antemano.%20",
+    link:"/suplemento/categoria/sarms",
     text:"SARMS"
   },
 ]
@@ -56,7 +56,7 @@ export default class Categories extends Component {
       const settings = {
         dots: false,
         infinite: true,
-        speed: 3000,
+        speed: 250,
         autoplaySpeed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,

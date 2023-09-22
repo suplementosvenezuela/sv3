@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import "./styles-cat.css";
 
 const cards = [
   {
@@ -605,25 +606,27 @@ export default function Produtos() {
         <div className="px-5 grid gap-1 grid-cols-1 lg:gap-4 lg:grid-cols-2 w-screen h-auto">
           {cards.map((card, index) => {
             const whatsappLink = `https://api.whatsapp.com/send?phone=584140124810&text=${encodeURIComponent(`¡Hola! Saludos, 👋
-            Les escribo a través de su página web SuplementosVenezuela.com desde la categoría marca "Nutrex" y estoy interesado en obtener más información y comprar "${card.producto}" por el precio de: ${card.precio} y también en recibir asesoría personalizada para el uso del mismo. Gracias de antemano. Mi nombre es: `)}`;
+            Les escribo a través de su página web SuplementosVenezuela.com desde la categoría marca "Nutrex" y estoy interesado en obtener más información y comprar "${card.producto}" por el precio de: ${card.precio}$ y también en recibir asesoría personalizada para el uso del mismo. Gracias de antemano. Mi nombre es: `)}`;
             return (
-              <div key={index} className="flex flex-col w-full py-5 px-1 border-black mx-auto border-4 2 hover:bg-gradient-to-b from-black to-white/50 sm:w-4/5">
-
+              <div
+                key={index}
+                className="flex flex-col w-full py-5 px-1 border-black mx-auto border-4 2 hover:bg-gradient-to-b from-black to-white/50 sm:w-4/5"
+              >
                 <div className="flex w-full flex-col sm:flex-row">
-                  <div className="flex flex-row w-full relative top-72 sm:top-0 pt-0 sm:pl-20 sm:flex-col sm:w-1/2 ">
-                    <div className="w-1/3 h-24 left-0 pt-7 p-1 mb-2 text-center bg-amber-500 sm:pt-4 sm:w-20 sm:h-20  sm:-left-1/2">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 w-full sm:relative sm:top-0 sm:pt-4 sm:w-1/2">
+                    <div className="h-24 pt-7 p-1 text-center bg-amber-500">
                       <h2 className="text-black text-xl font-semibold">
                         {card.carac1}
                       </h2>
                       <h2 className="text-black text-sm">Presentación</h2>
                     </div>
-                    <div className="w-1/3 h-28 left-0 pt-7 p-1 mb-2 text-center sm:pt-4 sm:w-20 sm:h-20 sm:-left-1/2">
+                    <div className="h-28 pt-7 p-1 text-center">
                       <h2 className="text-white text-xl font-semibold">
                         {card.carac2}
                       </h2>
                       <h2 className="text-white text-sm">Cantidad</h2>
                     </div>
-                    <div className="w-1/3 h-28 left-0 pt-7 p-1 mb-2 text-center sm:pt-4 sm:w-20 sm:h-20 sm:-left-1/2">
+                    <div className="h-28 pt-7 p-1 text-center">
                       <h2 className="text-white text-xl font-semibold">
                         {card.carac3}
                       </h2>
@@ -641,6 +644,7 @@ export default function Produtos() {
                     />
                   </div>
                 </div>
+
                 <div className="w-full flex flex-col mt-2 sm:flex-row">
                   <span className=" bg-white w-full h-0.5 sm:hidden"></span>
 
