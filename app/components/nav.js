@@ -98,7 +98,7 @@ export default function Nav() {
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link
                         className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg"
-                        href="/aminoacidos"
+                        href="/suplemento/categoria/aminoacidos"
                         onClick={handleNavLinkClick}
                       >
                         AMINOACIDOS
@@ -113,7 +113,7 @@ export default function Nav() {
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link
                         className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg"
-                        href="/productos"
+                        href="/suplemento/categoria/cooperpharma"
                         onClick={handleNavLinkClick}
                       >
                         COOPER
@@ -128,7 +128,7 @@ export default function Nav() {
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link
                         className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg"
-                        href="/productos"
+                        href="/suplemento/categoria/ganadores_de_peso"
                         onClick={handleNavLinkClick}
                       >
                         GANADORES DE PESO
@@ -143,7 +143,7 @@ export default function Nav() {
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link
                         className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg"
-                        href="/productos"
+                        href="/suplemento/categoria/creatinas"
                         onClick={handleNavLinkClick}
                       >
                         CREATINAS
@@ -159,7 +159,7 @@ export default function Nav() {
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link
                         className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg"
-                        href="/productos"
+                        href="/suplemento/categoria/precursores_de_testosterona"
                         onClick={handleNavLinkClick}
                       >
                         PRECURSORES DE TESTOSTERONA
@@ -175,7 +175,7 @@ export default function Nav() {
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link
                         className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg"
-                        href="/productos"
+                        href="/suplemento/categoria/proteinas"
                         onClick={handleNavLinkClick}
                       >
                         PROTEÍNAS
@@ -190,7 +190,7 @@ export default function Nav() {
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link
                         className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg"
-                        href="/productos"
+                        href="/suplemento/categoria/quemadores_de_grasa"
                         onClick={handleNavLinkClick}
                       >
                         QUEMADORES DE GRASA
@@ -206,7 +206,7 @@ export default function Nav() {
                     <li className=" flex hover:bg-gradient-to-r from-black to-white/50 rounded-r-lg">
                       <Link
                         className="texto w-1/2 ml-10 text-sm text-white hover:text-amber-400 hover:relative hover:py-14 hover:text-lg"
-                        href="/productos"
+                        href="/suplemento/categoria/sarms"
                         onClick={handleNavLinkClick}
                       >
                         SARMS
